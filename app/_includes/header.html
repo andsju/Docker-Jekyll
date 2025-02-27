@@ -4,4 +4,15 @@
 <hr>
 <nav>
     <a href="/">Start</a> | <a href="/about">About</a>
- </nav>
+</nav>
+
+
+<div>
+    {% for page in site.pages %}
+
+    {{ page.title }}
+
+    <br>
+
+    {% endfor %}
+</div>
