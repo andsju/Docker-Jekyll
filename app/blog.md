@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Min blogg
 categories: category
 permalink: blog
