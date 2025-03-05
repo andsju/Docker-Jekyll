@@ -3,16 +3,10 @@
 </header>
 <hr>
 <nav>
-    <a href="/">Start</a> | <a href="/about">About</a>
+    <!-- <a href="/">Start</a> | <a href="/about">About</a> -->
+
+    {%- for item in site.pages -%}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    {%- endfor -%}
+
 </nav>
-
-
-<div>
-    {% for page in site.pages %}
-
-    {{ page.title }}
-
-    <br>
-
-    {% endfor %}
-</div>
