@@ -3,3 +3,13 @@ body {
 }
 
 nav a {margin: .5rem}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+aside {
+    background-color: #eee;
+    min-height: 1rem;
+}

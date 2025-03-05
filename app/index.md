@@ -3,7 +3,7 @@ title: Hello world
 layout: default
 author: Flisa Hedenhös
 authors: ["Flisa", "Knota", "Urax"]
-permalink: start
+permalink: 
 ---
 
 Hello world
